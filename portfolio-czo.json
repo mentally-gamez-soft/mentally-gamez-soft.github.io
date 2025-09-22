@@ -1,0 +1,377 @@
+{
+  "name": "Christian Zoror",
+  "label": "Software developer + Photographer",
+  "image_path": "portfolio_media/profile.png",
+  "contact": {
+    "email": "christian.zoror.linkedin@gmail.com",
+    "phone": "",
+    "location": "Work remotely [+/-3 hours]"
+  },
+  "summary": "Graduated as a software developer in 2003. I then specialized into the database field, I accompanied many customers in their projects. I'm a Self taught photographer since 2012.",
+  "base_url": "https://christian-zoror.com",
+  "social_links": [
+    {
+      "label": "Github",
+      "url": "https://github.com/mentally-gamez-soft",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Personal Website",
+      "url": "https://actionphotopassion.com",
+      "svg_path": "img/globe.svg"
+    },
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/christian-zoror-127662105/",
+      "svg_path": "img/linkedin.svg"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://www.instagram.com/actionphotopassion/",
+      "svg_path": "img/github.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "SFR",
+      "position": "Senior Oracle consultant",
+      "url": "https://www.sfr.fr/",
+      "start_date": "Oct 2022",
+      "end_date": "Present",
+      "summary": "Oracle database expert. Java struts developer.",
+      "highlights": [
+        "Ensuring the deployment and provisioning of resources and services on mobile network for B2B and B2C customers",
+        "Implementing unit test to legacy java struts application",
+        "Optimizing Oracle SQL procedures execution",
+        "Delivering new features in PLSQL and java"        
+      ]
+    },
+    {
+      "company": "BMW Group",
+      "position": "Oracle database analyst",
+      "url": "https://bmw.es",
+      "start_date": "Nov 2021",
+      "end_date": "Sept 2022",
+      "summary": "Oracle database specialist working hand to hand with marketing team on data analutics and BI",
+      "highlights": [
+        "Delivering features for CRM application",
+        "Working on marketing campaigns for BMW and Mini brands",
+        "Delivering reportings for marketing teams BMW, Mini and Motorrad",
+        "Designing models for a new datawarehouse project (Informatica powercenter ETL)"
+      ]
+    },
+    {
+      "company": "BBVA",
+      "position": "Senior backend python developer",
+      "url": "https://bva.es",
+      "start_date": "May 2021",
+      "end_date": "Nov 2021",
+      "summary": "Python web expert working on a new application for the marketing dept",
+      "highlights": [
+        "Design of APIs",
+        "Compliance with the bank security software rules ",
+        "UI design in Vuejs"
+      ]
+    },
+    {
+      "company": "-",
+      "position": "Python expert",
+      "url": "",
+      "start_date": "Feb 2021",
+      "end_date": "May 2021",
+      "summary": "Python expertise to migrate a Django monolith application to micro services flask",
+      "highlights": [
+        "Architecturing the solution",
+        "Scheduling the projects for the incoming year"
+      ]
+    },
+    {
+      "company": "-",
+      "position": "Python web specialist",
+      "url": "",
+      "start_date": "Sep 2020",
+      "end_date": "Dec 2020",
+      "summary": "Python Django web specialist hired for versionm upgrade",
+      "highlights": [
+        "Migrating an application fron Django v1 to v2"
+      ]
+    },
+    {
+      "company": "-",
+      "position": "Senior Python developer",
+      "url": "",
+      "start_date": "Nov 2019",
+      "end_date": "July 2020",
+      "summary": "Freelancing: creation of a SaaS application",
+      "highlights": [
+        "Description of the requirements",
+        "Designing the architecture of the solution",
+        "Design of UI mockups",
+        "Implementation of the solution"
+      ]
+    },
+    {
+      "company": "PSA Banque",
+      "position": "Senior functional analyst O2C",
+      "url": "https://www.stellantisfinancialservices.es/bienvenido.html",
+      "start_date": "June 2018",
+      "end_date": "June 2020",
+      "summary": "Liaise between the stakeholders and the technical teams",
+      "highlights": [
+        "Analysis of functional requirements",
+        "Translation of functional requirements to technical needs",
+        "Mentoring of technical resources",
+        "Project management"
+      ]
+    },
+    {
+      "company": "Orange",
+      "position": "Data analyst O2C - O2D",
+      "url": "https://orange.fr",
+      "start_date": "Aug 2017",
+      "end_date": "June 2018",
+      "summary": "Maintaining CRM application and delivery of services and resources on Orange network",
+      "highlights": [
+        "Maintenance of application",
+        "Track and follow-up of new orders in the system",
+        "Debugging stuck processes"
+      ]
+    },
+    {
+      "company": "Societe Generale",
+      "position": "Oracle expert PLSQL and Java Struts",
+      "url": "https://www.societegenerale.fr",
+      "start_date": "Jan 2016",
+      "end_date": "July 2017",
+      "summary": "Maintaining the production chains activity for the regulatory statements",
+      "highlights": [
+        "Delivering new features according to the needs Java + PLSQL"
+      ]
+    },
+    {
+      "company": "SFR",
+      "position": "Oracle expert PLSQL and Java Struts",
+      "url": "https://www.sfr.fr/",
+      "start_date": "Feb 2011",
+      "end_date": "Dec 2015",
+      "summary": "Working on the provisioning of services and resources of the network operator",
+      "highlights": [
+        "Delivered project for dedicated fiber for enterprises",
+        "Delivered project for FTTH",
+        "Delivered project for 4G"
+      ]
+    },
+    {
+      "company": "SFR",
+      "position": "Billing process expert",
+      "url": "https://www.sfr.fr/",
+      "start_date": "Apr 2008",
+      "end_date": "Feb 2011",
+      "summary": "Working on the billing system. Maintenance and migration",
+      "highlights": [
+        "Improved the analysis of rejected calls",
+        "Implement new rates into the system",
+        "Implement automated solutions for recycling rekjected calls",
+        "When the comany megred with SFR: migrated the legacy billing system to the one billing system of SFR"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "technology":".NET core",
+      "title": "POC for API with C# .NET core",
+      "summary": "Implementating an API on the .NET core framework",
+      "url": "https://github.com/mentally-gamez-soft/POC-dotnet-api",
+      "highlights": [
+        "API with .NET",
+        "dependency injection in .NET"
+      ]
+    },
+    {
+      "technology":"python",
+      "title": "Actionphotopassion, my photography web page",
+      "summary": "My first website to learn about the python Django framework",
+      "url": "https://actionphotopassion.com",
+      "highlights": [
+        "Learn the django framework",
+        "Learn about emailing with python"
+      ]
+    },
+    {
+      "technology":"python",
+      "title": "IAM Gateway",
+      "summary": "Implementating a IAM Gateway with Flask framework",
+      "url": "https://github.com/mentally-gamez-soft/IAM-gateway",
+      "highlights": [
+        "API with flask",
+        "Swagger documentation",
+        "JWT management workflow"
+      ]
+    },
+    {
+      "technology":"python",
+      "title": "AI ML email spam",
+      "summary": "Delivery of a AI trained model to recognize email or spam",
+      "url": "https://github.com/mentally-gamez-soft/email-spam-machine-learning",
+      "highlights": [
+        "API with flask",
+        "python ML with scikit learn library"
+      ]
+    },
+    {
+      "technology":"python",
+      "title": "MyCurrency: Application of trading rates",
+      "summary": "Delivery of a Django app that retrieve the rates GBP, USD, EUR",
+      "url": "https://github.com/mentally-gamez-soft/MyCurrency",
+      "highlights": [
+        "API with Django",
+        "use of asyncio",
+        "defining custom django manager commands"
+      ]
+    },
+    {
+      "technology":"python",
+      "title": "Password scoring app",
+      "summary": "Implementating an application that scores the entropy of a password in python",
+      "url": "https://github.com/mentally-gamez-soft/ws-password-validator",
+      "highlights": [
+        "API with flask",
+        "Swagger documentation",
+        "Async with Celery and Redis"
+      ]
+    },
+    {
+      "technology":"python",
+      "title": "Translator web app",
+      "summary": "Delivery of an API for translating text",
+      "url": "https://github.com/mentally-gamez-soft/ws-translator",
+      "highlights": [
+        "API with flask",
+        "python ML with scikit learn library",
+        "use of google translate"
+      ]
+    }
+  ],
+  "volunteer_experience": [],
+  "education": [
+    {
+      "institution": "University Versailles SQY",
+      "location": "Versailles, France",
+      "url": "https://www.uvsq.fr",
+      "degrees": [
+        "DEUG MIAS",
+        "BTS Software development"
+      ],
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "15/07/2003"
+    }
+  ],
+  "skills": [
+    {
+      "name": "[Python packaging] pip",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "[Python packaging] uv",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "[Python packaging] poetry",
+      "proficiency": 20,
+      "proficiency_label": "Still Learning"
+    },
+    {
+      "name": "[Python web] Django/Django REST",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "[Python web] Flask",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "[Python web] Reflex",
+      "proficiency": 60,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "[Python async] Redis RabbitMQ AsyncIO Celery",
+      "proficiency": 80,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "[Blockchain] $NEAR",
+      "proficiency": 30,
+      "proficiency_label": "Still Learning"
+    },
+    {
+      "name": "[CI-CD] Github",
+      "proficiency": 85,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "[CI-CD] Gitlab",
+      "proficiency": 70,
+      "proficiency_label": "Advanced"
+    },
+    {
+      "name": "[DevOps] Docker",
+      "proficiency": 100,
+      "proficiency_label": "Expert"
+    },
+    {
+      "name": "[DevOps] K8s",
+      "proficiency": 60,
+      "proficiency_label": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travels, Photography and Printing",
+      "summary": "I started my photography journey as a hobbyist 10 years ago. After extensively visiting different places on Earth, my imagery craft level is now at its best.",
+      "images": [
+        {
+          "img_path": "https://g3.img-dpreview.com/3FA6EC9F81F241F4991234E3E2106835.jpg",
+          "caption": "Madrid Retiro"
+        },
+        {
+          "img_path": "https://g2.img-dpreview.com/6151EBF321674631A6D831E6A032A857.jpg",
+          "caption": "seascapes"
+        },
+        {
+          "img_path": "https://g4.img-dpreview.com/C726CFB2A05E4F1E93DB9920F341140A.jpg",
+          "caption": "fireworks"
+        },
+        {
+          "img_path": "https://g2.img-dpreview.com/043A204D3973439D85E04C7F59B367B6.jpg",
+          "caption": "pre-weddings and couples"
+        },
+        {
+          "img_path": "https://www.actionphotopassion.com/media/gallery/Panoramas/public/web_panorama_granada_alhambra_026.jpg_1500w.jpg",
+          "caption": "landscapes"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient C2"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Advanced C1"
+    }
+  ],
+  "references": [
+  ]
+}
