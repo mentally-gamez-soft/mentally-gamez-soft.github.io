@@ -123,7 +123,7 @@
                       {% if project.technology == "python" %}
                       <span class="pill pill-blue">{{ project.technology }}</span>
                       {% else %}
-                      <span class="pill pill-pink">{{ project.technology }}</span>
+                      <span class="pill pill-pink-muted">{{ project.technology }}</span>
                       {% endif %}
                       <a href="{{ project.url }}">{{ project.title }}</a>
                     {% else %}
@@ -164,7 +164,17 @@
               <ul class="unstyled-list">
                 {% for skill in skills %}
                   <li>
-                    <h3>{{ skill.name }}</h3>
+                    <h3>
+                      {% if skill.technology is in("Python") %}
+                      <span class="pill pill-blue">{{ skill.technology }}</span>
+                      {% elif skill.technology is in("DevOps") %}
+                      <span class="pill pill-pink-muted">{{ skill.technology }}</span>
+                      {% elif skill.technology is in("Blockchain") %}
+                      <span class="pill pill-green">{{ skill.technology }}</span>
+                      {% elif skill.technology is in("Databases") %}
+                      <span class="pill pill-purple">{{ skill.technology }}</span>
+                     {% endif %}
+                      {{ skill.name }}</h3>
                     <div class="skill-bar">
                       {% if skill.proficiency is le(30) %}
                       <div class="skill-bar-fill-one-third w-{{ skill.proficiency }}"

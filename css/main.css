@@ -4,9 +4,9 @@
   --header-footer-bg-color: #f0f0f0;
   --aside-accent-color: #9d836b;
   --skill-bar-fill-color: #f3e4c6;
-  --skill-bar-fill-color-full: #41f00c;
-  --skill-bar-fill-color-two-thirds: #0dd5e4;
-  --skill-bar-fill-color-one-third: #ffee01;
+  --skill-bar-fill-color-full:#83beb6;
+  --skill-bar-fill-color-two-thirds: #c7dedd;
+  --skill-bar-fill-color-one-third:#dbe5ea;
   --blockquote-bg-color: #f7fafc;
   --blockquote-accent-color: #4a5568;
   --blockquote-text-color: #4a5568;
@@ -21,14 +21,51 @@
   font-weight: bold;
   color: #fff;
   border-radius: 9999px; /* A very large value to ensure a pill shape */
-  margin-right: 15px;
 }
 
 .pill-blue {
-  background-color: #7cb2f0;
+  margin-right: 15px;
+  background-color: #7cb2f0; 
 }
 .pill-pink {
+  margin-right: 15px;
   background-color: #df50f1;
+}
+.pill-pink-muted {
+  margin-right: 15px;
+  background-color: #cb87d4;
+}
+.pill-green {
+  margin-right: 3px;
+  background-color: #7dc06c;
+}
+.pill-yellow {
+  margin-right: 3px;
+  background-color: #f9c74f;
+}
+.pill-orange {
+  margin-right: 3px;
+  background-color: #f7aa6c;
+}
+.pill-fuschia {
+  margin-right: 3px;
+  background-color: #c27890;
+}
+.pill-teal {
+  margin-right: 3px;
+  background-color:#82d6c1;
+}
+.pill-dark-blue {
+  margin-right: 3px;
+  background-color: #6189df;
+}
+.pill-beige {
+  margin-right: 3px;
+  background-color: #c4b498;
+}
+.pill-purple {
+  margin-right: 3px;
+  background-color: #c097f5; 
 }
 
 /* Base Styles */
@@ -285,7 +322,7 @@ aside ul {
 
 main li,
 aside li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.2rem; /* 0.5rem; */
 }
 
 .unstyled-list {
