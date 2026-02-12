@@ -188,7 +188,7 @@
       "technology":"python",
       "title": "IPFS Gateway",
       "summary": "A Google cloud API app to interconnect with the interplanetary file system",
-      "url": "hhttps://github.com/mentally-gamez-soft/ipfs-gateway",
+      "url": "https://github.com/mentally-gamez-soft/ipfs-gateway",
       "highlights": [
         "Learn about pining/unping files on IPFS platform",
         "Use of boto3 to use S3 APIs",
