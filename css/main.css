@@ -462,6 +462,71 @@ blockquote {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Formations */
+.formation-list {
+  list-style: none;
+  padding: 0;
+}
+
+.formation-item {
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.formation-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.formation-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.formation-title {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.formation-date {
+  font-size: 0.8rem;
+  color: #999;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.formation-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.3rem 0 0.5rem;
+}
+
+.formation-badge-link {
+  display: inline-block;
+}
+
+.formation-badge {
+  width: 72px;
+  height: auto;
+  border-radius: 4px;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.formation-badge:hover {
+  opacity: 1;
+}
+
+.formation-text-link {
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 @media (min-width: 37.5rem) {
   .main-gallery {
     grid-template-columns: repeat(3, 1fr);

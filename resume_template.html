@@ -145,6 +145,30 @@
 
         <!-- Sidebar Section -->
         <aside>
+          {% if formations %}
+            <section>
+              <h2 class="section-heading">Latest Formations</h2>
+              <ul class="unstyled-list formation-list">
+                {% for formation in formations %}
+                  <li class="formation-item">
+                    <div class="formation-header">
+                      <h3 class="formation-title">{{ formation.title }}</h3>
+                      <span class="formation-date">{{ formation.graduate_date }}</span>
+                    </div>
+                    <p class="formation-description">{{ formation.description }}</p>
+                    {% if formation.image_path %}
+                      <a href="{{ formation.link }}" class="formation-badge-link" target="_blank" rel="noopener noreferrer">
+                        <img src="{{ formation.image_path }}" alt="{{ formation.title }}" class="formation-badge" />
+                      </a>
+                    {% else %}
+                      <a href="{{ formation.link }}" class="formation-text-link" target="_blank" rel="noopener noreferrer">AI4Devs by LIDR.co</a>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
           {% if languages %}
             <section>
               <h2 class="section-heading">Languages</h2>

@@ -452,6 +452,47 @@
       "fluency": "Advanced C1"
     }
   ],
+  "formations": [
+    {
+      "title": "Master AI for software development",
+      "description": "Bootcamp AI4Devs: mastering sotware development with AI tools and agents",
+      "link": "https://www.lidr.co/ia-devs/",
+      "status": "in progress",
+      "graduate_date": "Apr 2026"
+    },
+    {
+      "title": "Akkodis AI Booster Program",
+      "description": "AI Agent development",
+      "image_path": "portfolio_media/ai-booster-ai-agent-development.png",
+      "link": "https://www.credly.com/badges/35407ee9-4c2c-4e37-8912-867c626a1401/public_url",
+      "status": "done",
+      "graduate_date": "Dec 2025"
+    },
+    {
+      "title": "Akkodis Digital Boost Program",
+      "description": "Akkodis Academy Ambassador",
+      "image_path": "portfolio_media/akkodis-academy-ambassador-digital-boost-2025.png",
+      "link": "https://www.credly.com/badges/30166661-e525-423c-b305-317818fcd2ea/public_url",
+      "status": "done",
+      "graduate_date": "Dec 2025"
+    },
+    {
+      "title": "Akkodis Digital Boost Program",
+      "description": "ChatGPT - Explorer",
+      "image_path": "portfolio_media/digital-boost-chatgpt-explorer.png",
+      "link": "https://www.credly.com/badges/c1318c80-80f9-4a7f-8582-0358a761a034/public_url",
+      "status": "done",
+      "graduate_date": "May 2025"
+    },
+    {
+      "title": "Akkodis Digital Boost Program",
+      "description": "AI - Practitioner",
+      "image_path": "portfolio_media/digital-boost-ai-practitioner.png",
+      "link": "https://www.credly.com/badges/c7c4f587-c49e-423f-b73b-f12a476fbfeb/public_url",
+      "status": "done",
+      "graduate_date": "Nov 2024"
+    }
+  ],
   "references": [
   ]
 }
