@@ -468,10 +468,11 @@
   "formations": [
     {
       "title": "Master AI for software development",
-      "description": "Bootcamp AI4Devs: mastering sotware development with AI tools and agents",
+      "description": "Master AI4Devs: AI tools and agents in SDLC",
+      "image_path": "portfolio_media/LIDR-certificate-czo.png",
       "link": "https://www.lidr.co/ia-devs/",
-      "status": "in progress",
-      "graduate_date": "Mar 2026"
+      "status": "done",
+      "graduate_date": "Oct 2025 - Mar 2026"
     },
     {
       "title": "Akkodis AI Booster Program",
