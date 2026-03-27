@@ -475,6 +475,14 @@
       "graduate_date": "Oct 2025 - Mar 2026"
     },
     {
+      "title": "Akkodis Digital Boost Program",
+      "description": "Automation with python",
+      "image_path": "portfolio_media/digital-boost-python-automation.png",
+      "link": "https://www.credly.com/badges/cbc669ed-98dc-4afc-bfdf-9aa9c072b58a/public_url",
+      "status": "done",
+      "graduate_date": "Mar 2026"
+    },
+    {
       "title": "Akkodis AI Booster Program",
       "description": "AI Agent development",
       "image_path": "portfolio_media/ai-booster-ai-agent-development.png",
